@@ -34,10 +34,11 @@ El sistema solar es el conjunto formado por el Sol y los ochos planetas con sus 
 
 
 ### Translate <a id="translate"></a>
-Básicamente, todo el sistema gira alrededor del sol (heliocentrismo). Para ello, se realiza un translate(width/2 ,height/2,-300 ), con esto conseguimos que el sol se encuentre en el centro. Además, para el resto de cuerpos celestes, se utilizará dicha posicion como punto de referencia. Para poder lograr eso, es necesario ir realizando un popMatrix()/pushMatrix() antes y despues de pintar el nuevo cuerpo, de este modo podremos mantener el sol como punto de referencia. Exepto, cuando queramos dibujar la luna que en este caso, se pintará con respecto a la tierra.
+Básicamente, todo el sistema gira alrededor del sol (heliocentrismo). Para ello, se realiza un translate (width/2 ,height/2,-300 ), con esto conseguimos que el sol se encuentre en el centro. Además, para el resto de cuerpos celestes, se utilizará dicha posicion como punto de referencia. Para poder lograr eso, es necesario ir realizando un popMatrix()/pushMatrix() antes y despues de pintar el nuevo cuerpo, de este modo podremos mantener el sol como punto de referencia. Exepto, cuando queramos dibujar la luna que en este caso, se pintará con respecto a la tierra.
 
 
 ## Referencias
 
 * [Guion de prácticas](https://cv-aep.ulpgc.es/cv/ulpgctp20/pluginfile.php/126724/mod_resource/content/22/CIU_Pr_cticas.pdf)
 * [Programa para la grabación del gif](https://obsproject.com/es)
+* [Texturas](https://www.solarsystemscope.com/textures/)
